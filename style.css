@@ -1,0 +1,262 @@
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+.new{
+    background-color: #0b1320;
+    color: #b6a8e1;
+    padding: 3px;
+    text-align: center;
+    border-bottom: 1px dashed white;
+    font-size: 16px;
+}
+.new-green{
+    border: 1px solid #24c26e;
+    background-color: #24c26e;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #3b3f47;
+    padding: 4px 8px;
+    margin-right: 4px;
+}
+.header{
+    background-color: #0b1320;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 100px 10px 200px;
+    overflow: hidden;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+.globe{
+    margin-bottom: -10px;
+}
+.trial{
+    border: 1px solid white;
+    padding: 5px 20px 5px 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.hero{
+    display: flex;
+    background-color: #8cd3e5;
+    padding: 100px;
+    justify-content: space-around;
+}
+.hero-left{
+    width: 40%;
+}
+.hero-left h1{
+    font-size: 90px;
+    font-weight: 900;
+    letter-spacing: -5px;
+}
+.hero-left p{
+    font-size: 20px;
+    margin-top: -50px;
+}
+.trial-btn{
+    color: white;
+    background-color: #5d35d6;
+    padding: 10px 25px 10px 25px;
+    font-size: 18px;
+    border: 1px solid #5d35d6;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.watch{
+    color: black;
+    padding: 10px 25px 10px 25px;
+    border: 1px solid black;
+    background-color: #8cd3e5;
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+.hero-img{
+    height: 400px;
+    width: 600px;
+}
+.services{
+    display: flex;
+    padding: 200px;
+}
+.sevices-right h3{
+    font-size: 40px;
+}
+.sevices-right button{
+    font-size: 20px;
+    background-color: #f7f7f7;
+    color: black;
+    padding: 20px 100px 20px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid #f7f7f7;
+}
+.fa-arrow-up{
+    transform: rotate(45deg);
+    margin: 5px;
+}
+.features{
+    background-color: #0b1320;
+    color: white;
+    padding: 50px 150px 50px 150px;
+}
+.feature{
+    display: flex;
+    justify-content: space-between;
+}
+.features h1{
+    text-align: center;
+    font-size: 46px;
+}
+.features-para{
+    text-align: center;
+}
+.feature-box img{
+    width: 100px;
+}
+.feature-box{
+    width: 450px;
+    margin: 50px;
+    padding: 50px;
+}
+.feature-box h2{
+    font-weight: 700;
+}
+.free-trial{
+    color: #b6a8e1;
+}
+.trust{
+    padding: 50px 200px 50px 250px;
+}
+.trust h1{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: -3px;
+}
+.trust p{
+    text-align: center;
+}
+.trust img{
+    width: 120px;
+    margin: 30px;
+
+}
+.trainline{
+   padding-left: 100px;
+}
+.testimonials{
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 50px 150px 50px 150px;
+}
+.waterstone{
+    margin:0px 20px -80px 20px;
+}
+.says{
+    margin: 150px 50px 50px 50px;
+}
+.ceo{
+    color: rgb(20, 20, 87);
+}
+.lifeatfw{
+    padding: 50px 200px 50px 200px;
+}
+.lifeoffw{
+    display: flex;
+}
+.life img{
+    width: 240px;
+}
+.lifeatfw h1{
+    text-align: center;
+}
+.life{
+    margin: 20px;
+}
+.lifeatfw button{
+    margin: 50px 450px;
+    padding: 15px 40px 15px 40px;
+    background-color: #0b1320;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.start{
+    background-color: #0b1320;
+    color: white;
+    padding: 150px 200px 150px 200px;
+    text-align: center;
+}
+.start button{
+    color: #0b1320;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 30px 10px 30px;
+    font-weight: 700;
+}
+.footer{
+    display: flex;
+    padding: 50px 200px 50px 200px;
+    
+}
+.freshworks{
+    display: flex;
+    flex-direction: column;
+
+}
+.freshworks img{
+    margin-bottom: 5px;
+}
+.footer a{
+    margin: 5px;
+    text-decoration: none;
+    color: #0b1320;
+}
+.company{
+    display:flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: -30px;
+    margin-right: 100px;
+}
+.social{
+    width: 200px;
+    border-left: 1px solid black;
+    height: 120px;
+    padding: 30px;
+}
+.social i{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 10px;
+}
+.social p{
+    font-weight: 800;
+    font-size: 16px;
+}
+.end a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+.end p{
+    display: inline;
+}
+.end{
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 20px 10px 20px 100px;
+}
